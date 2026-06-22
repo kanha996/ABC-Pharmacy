@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
+using PharmacyApi.Models;
+using PharmacyApi.Services;
+
+
 namespace PharmacyApi.Controllers;
 
 [ApiController]

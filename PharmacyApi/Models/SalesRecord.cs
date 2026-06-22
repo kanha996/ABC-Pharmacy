@@ -1,4 +1,5 @@
-System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using PharmacyApi.Models;
 
 namespace PharmacyApi.Models;
 
@@ -25,7 +26,7 @@ public class SaleRecord
 }
 
 public class CreateSaleRequest
-    {
-        public int MedicineId { get; set; }
-        public int SoldQuantity { get; set; }
-    }
+{
+    public int MedicineId { get; set; }
+    public int SoldQuantity { get; set; }
+}

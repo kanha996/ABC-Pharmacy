@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using PharmacyApi.Models;
+
 namespace PharmacyApi.Models;
 
 public class Medicine

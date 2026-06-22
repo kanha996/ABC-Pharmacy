@@ -1,9 +1,0 @@
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.csproj.AssemblyReference.cache
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/rpswa.dswa.cache.json
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.GeneratedMSBuildEditorConfig.editorconfig
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.AssemblyInfoInputs.cache
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.AssemblyInfo.cs
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.csproj.CoreCompileInputs.cache
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.MvcApplicationPartsAssemblyInfo.cs
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.MvcApplicationPartsAssemblyInfo.cache
-/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.sourcelink.json

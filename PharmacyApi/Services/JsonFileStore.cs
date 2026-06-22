@@ -1,4 +1,5 @@
 using System.Text.Json;
+using PharmacyApi.Models;
 
 namespace PharmacyApi.Services;
 
