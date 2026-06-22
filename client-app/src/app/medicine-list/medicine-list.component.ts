@@ -20,6 +20,7 @@ export class MedicineListComponent implements OnInit {
   loadMedicines(): void {
     this.api.getMedicines().subscribe(data => {
       this.medicines = data;
+      console.log("fetch medicine");
     });
   }
 

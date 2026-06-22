@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { PharmacyApiService } from '../services/pharmacy-api-service';
 import { Medicine } from '../models/medicine';
@@ -19,6 +19,7 @@ export class SalesEntryComponent implements OnInit {
   });
 
   constructor(private fb: FormBuilder, private api: PharmacyApiService) {}
+  @Output() saleRecorded = new EventEmitter<void>();
 
   ngOnInit(): void {
     this.api.getMedicines().subscribe(data => this.medicines = data);
@@ -36,6 +37,7 @@ export class SalesEntryComponent implements OnInit {
     }).subscribe({
       next: () => {
         this.success = 'Sale recorded successfully.';
+        this.saleRecorded.emit();
         this.saleForm.patchValue({ soldQuantity: 1, medicineId: '' });
         this.api.getMedicines().subscribe(data => this.medicines = data);
       },

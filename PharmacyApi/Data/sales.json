@@ -25,5 +25,59 @@
     "UnitPrice": 99,
     "TotalAmount": 990,
     "SoldOn": "2026-06-22T22:00:33.783761Z"
+  },
+  {
+    "Id": 4,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 11,
+    "UnitPrice": 89.99,
+    "TotalAmount": 989.89,
+    "SoldOn": "2026-06-22T22:32:52.965076Z"
+  },
+  {
+    "Id": 5,
+    "MedicineId": 5,
+    "MedicineName": "dsdksnkdns",
+    "SoldQuantity": 1,
+    "UnitPrice": 1110,
+    "TotalAmount": 1110,
+    "SoldOn": "2026-06-22T22:32:56.377362Z"
+  },
+  {
+    "Id": 6,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 1,
+    "UnitPrice": 89.99,
+    "TotalAmount": 89.99,
+    "SoldOn": "2026-06-22T22:49:27.165308Z"
+  },
+  {
+    "Id": 7,
+    "MedicineId": 1,
+    "MedicineName": "Paracetamol 500mg",
+    "SoldQuantity": 1,
+    "UnitPrice": 25.50,
+    "TotalAmount": 25.50,
+    "SoldOn": "2026-06-22T22:50:30.199864Z"
+  },
+  {
+    "Id": 8,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 5,
+    "UnitPrice": 89.99,
+    "TotalAmount": 449.95,
+    "SoldOn": "2026-06-22T22:54:13.430647Z"
+  },
+  {
+    "Id": 9,
+    "MedicineId": 1,
+    "MedicineName": "Paracetamol 500mg",
+    "SoldQuantity": 5,
+    "UnitPrice": 25.50,
+    "TotalAmount": 127.50,
+    "SoldOn": "2026-06-22T22:54:29.973992Z"
   }
 ]

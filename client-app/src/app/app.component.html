@@ -8,23 +8,19 @@
         <p class="subtitle">Single page app with Web API, JavaScript UI, JSON storage, and medicine sales tracking.</p>
       </div>
     </div>
-    <!-- <button class="btn btn-secondary" (click)="refreshAllData()">Refresh data</button> -->
+  
   </header>
 
   <div class="dashboard-grid">
     
     <div class="grid-left">
-      <app-medicine-list></app-medicine-list>
+      <app-medicine-list #inventoryList></app-medicine-list>
+      <app-sales-entry (saleRecorded)="inventoryList.loadMedicines()"></app-sales-entry>
     </div>
 
     <div class="grid-right">
-      <app-add-medicine></app-add-medicine>
-      <app-sales-entry></app-sales-entry>
+      <app-add-medicine (medicineAdded)="inventoryList.loadMedicines()"></app-add-medicine>
       
-      <div class="panel">
-        <h2>Recent sales</h2>
-        <div class="empty-state-text">No sales recorded yet.</div>
-      </div>
     </div>
 
   </div>

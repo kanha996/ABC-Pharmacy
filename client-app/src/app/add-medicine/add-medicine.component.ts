@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
@@ -27,7 +27,7 @@ export class AddMedicineComponent {
     private api: PharmacyApiService,
     private router: Router
   ) {}
-
+  @Output() medicineAdded = new EventEmitter<void>();
   save(): void {
     this.submitted = true;
     this.error = '';
@@ -35,7 +35,11 @@ export class AddMedicineComponent {
     if (this.medicineForm.invalid) return;
 
     this.api.addMedicine(this.medicineForm.value as any).subscribe({
-      next: () => this.router.navigate(['/']),
+      next: () => {
+        this.medicineAdded.emit();
+        this.medicineForm.reset();
+        this.submitted = false;
+      },
       error: (err: HttpErrorResponse) => this.error = err.error || 'Unable to save medicine.'
     });
   }

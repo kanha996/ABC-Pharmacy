@@ -1,7 +1,7 @@
-<!-- <div class="panel">
-  <h2>Add Medicine</h2>
+<div class="panel">
+  <h2>Add medicine</h2>
 
-  <div class="message" [class.show]="!!error" [class.error]="!!error">
+  <div class="message error" *ngIf="error">
     {{ error }}
   </div>
 
@@ -9,26 +9,26 @@
     <div class="form-grid">
       
       <div class="field full">
-        <label>Full Name</label>
+        <label>Full name</label>
         <input type="text" formControlName="fullName" />
         <div *ngIf="submitted && medicineForm.get('fullName')?.invalid" class="text-danger">
           Full Name is required.
         </div>
       </div>
-
+      
       <div class="field full">
         <label>Notes</label>
         <textarea formControlName="notes"></textarea>
       </div>
-
+      
       <div class="field">
-        <label>Expiry Date</label>
+        <label>Expiry date</label>
         <input type="date" formControlName="expiryDate" />
         <div *ngIf="submitted && medicineForm.get('expiryDate')?.invalid" class="text-danger">
           Expiry Date is required.
         </div>
       </div>
-
+      
       <div class="field">
         <label>Quantity</label>
         <input type="number" formControlName="quantity" />
@@ -36,7 +36,7 @@
           Valid quantity is required.
         </div>
       </div>
-
+      
       <div class="field">
         <label>Price</label>
         <input type="number" step="0.01" formControlName="price" />
@@ -44,7 +44,7 @@
           Valid price is required.
         </div>
       </div>
-
+      
       <div class="field">
         <label>Brand</label>
         <input type="text" formControlName="brand" />
@@ -54,23 +54,7 @@
       </div>
       
     </div>
-
-    <p class="hint">Price supports 2 decimal places.</p>
-    <button class="btn btn-primary" type="submit">Save Medicine</button>
-  </form>
-</div> -->
-
-<div class="panel">
-  <h2>Add medicine</h2>
-  <form [formGroup]="medicineForm" (ngSubmit)="save()">
-    <div class="form-grid">
-      <div class="field full"><label>Full name</label><input type="text" formControlName="fullName" /></div>
-      <div class="field full"><label>Notes</label><textarea formControlName="notes"></textarea></div>
-      <div class="field"><label>Expiry date</label><input type="date" formControlName="expiryDate" /></div>
-      <div class="field"><label>Quantity</label><input type="number" formControlName="quantity" /></div>
-      <div class="field"><label>Price</label><input type="number" step="0.01" formControlName="price" /></div>
-      <div class="field"><label>Brand</label><input type="text" formControlName="brand" /></div>
-    </div>
+    
     <button class="btn btn-primary" type="submit">Save medicine</button>
   </form>
 </div>
