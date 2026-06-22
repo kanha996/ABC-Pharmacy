@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "Id": 1,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 12,
+    "UnitPrice": 89.99,
+    "TotalAmount": 1079.88,
+    "SoldOn": "2026-06-22T22:00:13.814727Z"
+  },
+  {
+    "Id": 2,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 1,
+    "UnitPrice": 89.99,
+    "TotalAmount": 89.99,
+    "SoldOn": "2026-06-22T22:00:17.139276Z"
+  },
+  {
+    "Id": 3,
+    "MedicineId": 3,
+    "MedicineName": "Dolo",
+    "SoldQuantity": 10,
+    "UnitPrice": 99,
+    "TotalAmount": 990,
+    "SoldOn": "2026-06-22T22:00:33.783761Z"
+  }
+]

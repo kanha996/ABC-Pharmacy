@@ -1,0 +1,39 @@
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #e7e5e4;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.inventory-table th {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #78716c;
+  padding: 12px 8px;
+  border-bottom: 1px solid #e7e5e4;
+}
+
+.inventory-table td {
+  padding: 14px 8px;
+  font-size: 14px;
+  border-bottom: 1px solid #e7e5e4;
+}
+
+.table-legend {
+  font-size: 12px;
+  color: #78716c;
+  margin-top: 16px;
+}

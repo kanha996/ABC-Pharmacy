@@ -1,0 +1,31 @@
+<div class="panel">
+  <h2>Medicine inventory</h2>
+  
+  <div class="search-box">
+    <input type="text" [(ngModel)]="searchText" placeholder="Search by medicine name" />
+  </div>
+
+  <table class="inventory-table">
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>EXPIRY DATE</th>
+        <th>QUANTITY</th>
+        <th>PRICE</th>
+        <th>BRAND</th>
+        <th>STATUS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let medicine of filteredMedicines" [ngClass]="getRowClass(medicine)">
+        <td>{{ medicine.fullName }}</td>
+        <td>{{ medicine.expiryDate | date:'dd/MM/yyyy' }}</td>
+        <td>{{ medicine.quantity }}</td>
+        <td>{{ medicine.price | number:'1.2-2' }}</td>
+        <td>{{ medicine.brand }}</td>
+        <td><span class="status-badge">Available</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="table-legend">Red row means expiry date is under 30 days. Yellow row means quantity is below 10.</p>
+</div>

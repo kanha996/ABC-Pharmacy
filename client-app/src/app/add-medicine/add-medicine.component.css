@@ -1,0 +1,59 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field.full {
+  grid-column: span 2;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c1917;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e7e5e4;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.hint {
+  font-size: 12px;
+  color: #78716c;
+  margin: -10px 0 16px 0;
+}
+
+.btn-primary {
+  background-color: #2d6a6f;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #214e52;
+}

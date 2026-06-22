@@ -36,3 +36,11 @@
 /Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.pdb
 /Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/PharmacyApi.genruntimeconfig.cache
 /Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/ref/PharmacyApi.dll
+/Users/kanha996/ABC Pharmacy/PharmacyApi/bin/Debug/net10.0/PharmacyApi.staticwebassets.runtime.json
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/rbew4ncwzv-{0}-ejia7vogif-ejia7vogif.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/iard5e8fgm-{0}-nf69tc4d23-nf69tc4d23.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/ibh6brtnte-{0}-a2bze7wwx7-a2bze7wwx7.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/lckt9463wi-{0}-fw9qlfjqy0-fw9qlfjqy0.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/c2bqi8vwkw-{0}-mbe3x9wr3f-mbe3x9wr3f.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/uxb6vtlr2o-{0}-bnhighoq8u-bnhighoq8u.gz
+/Users/kanha996/ABC Pharmacy/PharmacyApi/obj/Debug/net10.0/compressed/fqx7klig9p-{0}-m7qb1ftx95-m7qb1ftx95.gz

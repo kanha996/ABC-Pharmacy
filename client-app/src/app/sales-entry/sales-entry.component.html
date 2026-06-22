@@ -1,0 +1,43 @@
+<div class="panel">
+  <h2>Record Sale</h2>
+
+  <div class="message error" [class.show]="!!error" *ngIf="error">
+    {{ error }}
+  </div>
+  <div class="message success" [class.show]="!!success" *ngIf="success">
+    {{ success }}
+  </div>
+
+  <form [formGroup]="saleForm" (ngSubmit)="save()">
+    <div class="form-vertical">
+      
+      <div class="field full">
+        <label>Medicine</label>
+        <select formControlName="medicineId">
+          <option value="">Select Medicine</option>
+          <option *ngFor="let medicine of medicines" [value]="medicine.id">
+            {{ medicine.fullName }} (Stock: {{ medicine.quantity }})
+          </option>
+        </select>
+        <div *ngIf="saleForm.get('medicineId')?.touched && saleForm.get('medicineId')?.invalid" class="text-danger">
+          Please select a medicine.
+        </div>
+      </div>
+
+      <div class="field full">
+        <label>Quantity sold</label>
+        <input type="number" formControlName="soldQuantity" placeholder="0" />
+        <div *ngIf="saleForm.get('soldQuantity')?.touched && saleForm.get('soldQuantity')?.invalid" class="text-danger">
+          Valid quantity is required.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit" [disabled]="saleForm.invalid">
+        Record sale
+      </button>
+    </div>
+  </form>
+</div>
