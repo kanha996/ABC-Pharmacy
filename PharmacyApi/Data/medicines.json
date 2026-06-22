@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "fullName": "Paracetamol 500mg",
+    "notes": "For fever and pain relief",
+    "expiryDate": "2026-07-15T00:00:00",
+    "quantity": 8,
+    "price": 25.50,
+    "brand": "ABC Pharma"
+  },
+  {
+    "id": 2,
+    "fullName": "Amoxicillin 250mg",
+    "notes": "Antibiotic - use as prescribed",
+    "expiryDate": "2026-06-30T00:00:00",
+    "quantity": 50,
+    "price": 89.99,
+    "brand": "HealthPlus"
+  }
+]

@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+System.ComponentModel.DataAnnotations;
 
 namespace PharmacyApi.Models;
 
@@ -23,3 +23,9 @@ public class SaleRecord
 
     public DateTime SoldOn { get; set; }
 }
+
+public class CreateSaleRequest
+    {
+        public int MedicineId { get; set; }
+        public int SoldQuantity { get; set; }
+    }
