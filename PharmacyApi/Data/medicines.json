@@ -13,8 +13,17 @@
     "FullName": "Amoxicillin 250mg",
     "Notes": "Antibiotic - use as prescribed",
     "ExpiryDate": "2026-06-30T00:00:00",
-    "Quantity": 20,
+    "Quantity": 9,
     "Price": 89.99,
     "Brand": "HealthPlus"
+  },
+  {
+    "Id": 3,
+    "FullName": "Paracetamol 500mg",
+    "Notes": "",
+    "ExpiryDate": "2026-08-20T00:00:00",
+    "Quantity": 8,
+    "Price": 200,
+    "Brand": "Dolo"
   }
 ]

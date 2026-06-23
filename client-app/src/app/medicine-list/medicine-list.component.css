@@ -37,3 +37,11 @@
   color: #78716c;
   margin-top: 16px;
 }
+
+.expiring {
+  background-color: #f8d7da;
+}
+
+.low-stock {
+  background-color: #fff3cd;
+}

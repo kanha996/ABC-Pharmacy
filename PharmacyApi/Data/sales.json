@@ -79,5 +79,14 @@
     "UnitPrice": 25.50,
     "TotalAmount": 127.50,
     "SoldOn": "2026-06-22T22:54:29.973992Z"
+  },
+  {
+    "Id": 10,
+    "MedicineId": 2,
+    "MedicineName": "Amoxicillin 250mg",
+    "SoldQuantity": 11,
+    "UnitPrice": 89.99,
+    "TotalAmount": 989.89,
+    "SoldOn": "2026-06-23T07:44:21.602298Z"
   }
 ]
